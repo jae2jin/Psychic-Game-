@@ -1,0 +1,21 @@
+h1 .jumbotron {
+    color: whitesmoke;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+}
+.jumbotron {
+    color: whitesmoke;
+    background-image: url("../images/Japanese.jpg");
+    background-size: cover;
+    background-position-y: 40%;
+    height: 400px;
+    margin-top: 1em;
+    padding-top: 12em;
+    padding-bottom: 12em;
+}
+.btn-primary {
+    color: whitesmoke;
+    background-color: transparent !important;
+    border-color: purple !important;
+}
