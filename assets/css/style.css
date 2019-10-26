@@ -1,3 +1,7 @@
+body {
+    background-image: url("../images/background.jpg");
+  }
+  
 h1 .jumbotron {
     color: whitesmoke;
     left: 50%;
@@ -9,7 +13,6 @@ h1 .jumbotron {
     background-image: url("../images/Japanese.jpg");
     background-size: cover;
     background-position-y: 40%;
-    height: 400px;
     margin-top: 1em;
     padding-top: 12em;
     padding-bottom: 12em;
@@ -18,4 +21,9 @@ h1 .jumbotron {
     color: whitesmoke;
     background-color: transparent !important;
     border-color: purple !important;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 1px solid;
+    cursor: pointer;
+    margin: 10px;
 }

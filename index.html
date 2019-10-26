@@ -16,24 +16,42 @@
 </head>
 
 <body>
-  <div class="container">
-  <div class="jumbotron">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="container text-center">
-          <h2 class="display-4">Great Game of Asia</h2>
-          <div id="subwrapper">
-          <p class="lead">Let's test your knowledge on questions about Asia!</p>
-          <hr class="my-6">
-          <p>Try your best to answer and finish the question before the time runs out!</p>
-            <button id="button" class="btn btn-primary btn-lg btn-block">Start THE GAME</button>
+  <div class="wrapper container">
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="container text-center">
+            <h2 class="display-4">Great Game of Asia</h2>
+            <div id="start-button">
+              <div>
+                <h3 id="time"></h3>
+              </div>
+              <p class="text-center">Let's test your knowledge on questions about Asia!</p>
+              <div>
+                <div id="questions">
+                </div>
+              </div>
+              <div class="hidden" id="results">
+                <h2>Final Scores</h2>
+                <p id="correctAnswers"></p>
+                <p id="incorrectAnswers"></p>
+                <p id="skippedAnswers"></p>
+              </div>
+            </div>
           </div>
+        </div>
+        <div class="wrapper container">
+          <hr class="my-6">
+          <p class="text-center">Try your best to answer and finish the question before the time runs out!</p>
+          <button id="button" class="btn btn-primary btn-lg btn-block">Start THE GAME</button>
         </div>
       </div>
     </div>
   </div>
-</div>
-  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
 
 </body>
 
